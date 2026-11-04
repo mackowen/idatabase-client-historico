@@ -1,0 +1,11 @@
+--- local/CAMPANHAS/0001.md
++++ remoto/CAMPANHAS/0001.md
+@@ -15,3 +15,8 @@
+ ## Política Git
+[contexto: linha vazia]
+ Inicializar e commitar somente nos dois novos diretórios. Não alterar configuração global, outros repositórios, branches existentes ou histórico. Sem force push. Publicar somente o histórico se houver remoto previamente autorizado e após gates; nenhum remoto foi configurado para este novo destino, então não houve push.
++
++
++## Adendo REM-0001 — remediação documental posterior
++
++Este adendo preserva o texto e os resultados registrados anteriormente; não promove nem reclassifica retroativamente a Campanha 0001. A recuperação documental, a proveniência, as divergências e os limites de verificação estão em `REMEDIACOES/REM-0001.md`. O resultado da campanha permanece PARTIAL, com G9 PARTIAL e G10 BLOCKED.

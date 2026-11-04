@@ -1,0 +1,11 @@
+--- local/REGISTROS/0001.md
++++ remoto/REGISTROS/0001.md
+@@ -32,3 +32,8 @@
+ - Código permaneceu em `f8773ce33f0001fd5a476a7d9eca1be12a52a4a8`; nenhum push foi realizado.
+ - G9 final: PARTIAL. G10 final: BLOCKED por G9. Estado global da Campanha 0001: PARTIAL.
+ - HEAD local final do histórico será o commit desta atualização documental; branches/HEADs finais constam no relatório de entrega e no log Git.
++
++
++## Adendo REM-0001 — remediação documental posterior
++
++Este adendo preserva o texto e os resultados registrados anteriormente; não promove nem reclassifica retroativamente a Campanha 0001. A recuperação documental, a proveniência, as divergências e os limites de verificação estão em `REMEDIACOES/REM-0001.md`. O resultado da campanha permanece PARTIAL, com G9 PARTIAL e G10 BLOCKED.

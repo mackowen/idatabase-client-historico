@@ -1,0 +1,11 @@
+--- local/MATRIZES/GATES-0001.md
++++ remoto/MATRIZES/GATES-0001.md
+@@ -37,3 +37,8 @@
+ ## Correção após tentativa real de push
+[contexto: linha vazia]
+ A tentativa autorizada `git push origin main` falhou antes da autenticação: `could not read Username for 'https://github.com': terminal prompts disabled`. Nenhum commit foi publicado. Portanto, o resultado final é **G9 PARTIAL** (remotes configurados, commits locais; publicação pendente) e **G10 BLOCKED** (gate de publicação/fechamento não satisfeito). A tabela condicional acima não representa o resultado final. Status global **PARTIAL**.
++
++
++## Adendo REM-0001 — remediação documental posterior
++
++Este adendo preserva o texto e os resultados registrados anteriormente; não promove nem reclassifica retroativamente a Campanha 0001. A recuperação documental, a proveniência, as divergências e os limites de verificação estão em `REMEDIACOES/REM-0001.md`. O resultado da campanha permanece PARTIAL, com G9 PARTIAL e G10 BLOCKED.

@@ -1,0 +1,11 @@
+--- local/RESUMOS/0001.md
++++ remoto/RESUMOS/0001.md
+@@ -11,3 +11,8 @@
+ ## Resultado final da continuação
+[contexto: linha vazia]
+ A tentativa de publicar o histórico falhou por falta de autenticação GitHub; o remoto permaneceu sem commits. G9 fica PARTIAL e G10 BLOCKED. A Campanha 0001 permanece PARTIAL apesar dos EXIT estruturais aprovados. Não houve push do código e a Campanha 0002 permanece não iniciada.
++
++
++## Adendo REM-0001 — remediação documental posterior
++
++Este adendo preserva o texto e os resultados registrados anteriormente; não promove nem reclassifica retroativamente a Campanha 0001. A recuperação documental, a proveniência, as divergências e os limites de verificação estão em `REMEDIACOES/REM-0001.md`. O resultado da campanha permanece PARTIAL, com G9 PARTIAL e G10 BLOCKED.

@@ -1,0 +1,11 @@
+--- local/CHECKPOINTS/0001.md
++++ remoto/CHECKPOINTS/0001.md
+@@ -29,3 +29,8 @@
+ | CP-0001-H | EXIT reavaliados; commit local criado; push histórico falhou sem autenticação; G9/G10 não aprovados | PARTIAL / bloqueado em G10 |
+[contexto: linha vazia]
+ A campanha não é promovida. Retomar o fechamento somente quando houver autenticação de escrita para o remoto GitHub autorizado; verificar o estado remoto antes de qualquer nova tentativa. A Campanha 0002 não foi iniciada.
++
++
++## Adendo REM-0001 — remediação documental posterior
++
++Este adendo preserva o texto e os resultados registrados anteriormente; não promove nem reclassifica retroativamente a Campanha 0001. A recuperação documental, a proveniência, as divergências e os limites de verificação estão em `REMEDIACOES/REM-0001.md`. O resultado da campanha permanece PARTIAL, com G9 PARTIAL e G10 BLOCKED.

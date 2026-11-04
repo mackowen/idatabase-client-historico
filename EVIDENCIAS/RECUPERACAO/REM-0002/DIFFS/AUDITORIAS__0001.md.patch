@@ -1,0 +1,11 @@
+--- local/AUDITORIAS/0001.md
++++ remoto/AUDITORIAS/0001.md
+@@ -26,3 +26,8 @@
+ ## Resultado final da tentativa de publicação
+[contexto: linha vazia]
+ Commit local de fechamento do histórico: `05925379fd30064bfdd9af5e92f2597f9cf513f9`. A tentativa de push normal para `origin main` falhou por falta de autenticação GitHub; `gh auth status` indicou que não há sessão autenticada. Não foi feito push do código. A consulta remota após a falha não encontrou refs, portanto o remoto do histórico permaneceu sem commits. A publicação fica pendente de autenticação válida; nenhum token/credencial foi solicitado, exibido ou gravado.
++
++
++## Adendo REM-0001 — remediação documental posterior
++
++Este adendo preserva o texto e os resultados registrados anteriormente; não promove nem reclassifica retroativamente a Campanha 0001. A recuperação documental, a proveniência, as divergências e os limites de verificação estão em `REMEDIACOES/REM-0001.md`. O resultado da campanha permanece PARTIAL, com G9 PARTIAL e G10 BLOCKED.
