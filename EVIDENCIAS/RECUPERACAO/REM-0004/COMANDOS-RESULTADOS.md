@@ -8,6 +8,7 @@ Comandos executados em modo de leitura salvo a alteração documental indicada. 
 | `git log --all --oneline --decorate --graph`; reflogs; `git fsck --full --no-reflogs --unreachable` no histórico | Seis commits lineares; nenhum tag/ref extra; exatamente 12 dangling blobs, todos classificados no inventário; nenhum commit perdido encontrado. Sem GC/prune. |
 | `git fsck --full --no-reflogs --unreachable` no código | Código 0, sem objeto inalcançável/erro. |
 | `git cat-file blob <OID>` + SHA-256 para cada dangling blob | 12 conteúdos identificados como diffs REM-0001 ou artefatos REM-0002; nenhum texto normativo v5.4 ou descrição individual AUD. |
+| `git fsck --full` final no histórico | 14 dangling blobs listados: 12 preexistentes e dois objetos intermediários do próprio REM-0004 (diff A-01 anterior e manifesto SHA anterior); nenhum commit perdido; todos preservados, sem GC/prune. |
 | `git ls-remote` dos dois SSH remotes | Histórico HEAD/main `fc072fce415e1645bcabaa940fb4ea383f2d3c37`; código sem refs. |
 | API GitHub `git/ref/heads/main`; API tree recursiva no SHA `fc072fce…` | Ref confere; 90 entradas, `truncated=false`; nenhuma baseline v5.4 nem documento individual AUD. |
 | Pesquisa textual de arquivos/commits/backups por `v5.4`, `baseline`, IDs AUD/EXIT | Registros dizem que a v5.4 foi fornecida no pedido, mas ausência de definições individuais; nenhum fonte original. Detalhes em `INVENTARIO-FONTES.md`. |

@@ -30,7 +30,7 @@ O clone bare de auditoria citado na Campanha 0002 existe em `~/idatabase-hist-au
 
 ## Doze blobs sem referência
 
-`git fsck --full --no-reflogs --unreachable` encontrou exatamente os 12 blobs listados abaixo; não encontrou commits/trees sem referência relevantes. Cada blob foi lido com `git cat-file blob`, classificado pelo cabeçalho/conteúdo e teve SHA-256 calculado. São diffs de adendo REM-0001, matrizes/registros da REM-0002 ou atualização de resumo/Campanha 0002. Nenhum contém texto AUD individual ou baseline v5.4. Os blobs permanecem intactos; não houve GC/prune.
+Na inspeção inicial, `git fsck --full --no-reflogs --unreachable` encontrou os 12 blobs preexistentes listados abaixo; não encontrou commits/trees sem referência relevantes. Cada blob foi lido com `git cat-file blob`, classificado pelo cabeçalho/conteúdo e teve SHA-256 calculado. São diffs de adendo REM-0001, matrizes/registros da REM-0002 ou atualização de resumo/Campanha 0002. Nenhum contém texto AUD individual ou baseline v5.4.
 
 | OID Git | SHA-256 do conteúdo | Conteúdo identificado |
 |---|---|---|
@@ -46,6 +46,15 @@ O clone bare de auditoria citado na Campanha 0002 existe em `~/idatabase-hist-au
 | `bdfbbecaed7c367a3a317391238e16abad8ca022` | `03d8404c5ec754d6a79a88e98710a9475ca0f08b1cbd82d135640517a935c1c5` | Matriz documental de reconciliação REM-0002 |
 | `c3a52742c06a7dfc3495f28f9b7c7bfd3484df9c` | `467d6236cee1739ed134a5ce7279d3059e8180e3fa01e1d36c8930561bc25ee2` | Registro de execução REM-0002 |
 | `e4e40851681e2466d4857ca1f5694b248588ad93` | `07c807c4831808c3f279601b09678b27662253f0cfd5d07e12030027caa514f5` | Relatório de execução REM-0002 |
+
+Na verificação final, após a edição dos documentos desta remediação, `fsck` apresentou ainda dois blobs intermediários criados durante a preparação do próprio REM-0004. Também foram inspecionados e permanecem preservados:
+
+| OID Git | Tamanho | SHA-256 do conteúdo | Conteúdo identificado |
+|---|---:|---|---|
+| `8ac0014c154bfb3b6cb8b815b57cc661318a2618` | 511 bytes | `b1202e87c3ec554db1abb1e55425d9611738040bb8978d012aed08b957390f02` | Versão intermediária da transcrição do diff A-01; contém a referência antiga apenas como lado removido do diff. |
+| `fd6b68aa549d8bb8b440c17e1ca246ae31a660dd` | 925 bytes | `ace32ab9af617fec00591a56148573c23b53030869575f0015839488fcc80af8` | Versão anterior do manifesto SHA-256 dos artefatos REM-0004. |
+
+Assim, a verificação final lista 14 dangling blobs: 12 preexistentes e dois intermediários REM-0004. Nenhum é commit, branch ou tag; nenhum é baseline v5.4. Todos permanecem no banco de objetos; não houve GC/prune.
 
 ## Limite e conclusão da busca
 
