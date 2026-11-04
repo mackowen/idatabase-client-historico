@@ -1,0 +1,7 @@
+diff --git a/docs/README.md b/docs/README.md
+index 8e04455..0cda6a4 100644
+--- a/docs/README.md
++++ b/docs/README.md
+@@ -3 +3 @@
+-Documentação do produto será adicionada em campanhas autorizadas. Registros e evidências da Campanha 0001 ficam em `~/projetos/idatabase-client-historico`.
++Documentação do produto será adicionada em campanhas autorizadas. Registros e evidências das campanhas ficam em `~/projetos/repos/idatabase-client-historico`.
