@@ -1,0 +1,312 @@
+{
+  "created_utc": "20261104T043346Z",
+  "source": "~/projetos/repos/idatabase-client-historico",
+  "backup_source": "~/projetos/backups/idatabase-client-historico-recovery-20261104T043346Z/source",
+  "files": 28,
+  "directories": 15,
+  "verified_equal": true,
+  "entries": [
+    {
+      "path": "AUDITORIAS",
+      "type": "directory",
+      "mode": "0o700",
+      "size": 0,
+      "sha256": null
+    },
+    {
+      "path": "AUDITORIAS/.gitkeep",
+      "type": "file",
+      "mode": "0o600",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "AUDITORIAS/0001.md",
+      "type": "file",
+      "mode": "0o600",
+      "size": 2901,
+      "sha256": "2f937988ff8c5df8021ad62d3e62b467749ab187110dfc5bdb14f56e2cc9e584"
+    },
+    {
+      "path": "CAMPANHAS",
+      "type": "directory",
+      "mode": "0o700",
+      "size": 0,
+      "sha256": null
+    },
+    {
+      "path": "CAMPANHAS/.gitkeep",
+      "type": "file",
+      "mode": "0o600",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "CAMPANHAS/0001.md",
+      "type": "file",
+      "mode": "0o600",
+      "size": 1431,
+      "sha256": "0a65197cabf0a8d9117b6f7ab379129857677f41fe883631f581a84e1a9f828b"
+    },
+    {
+      "path": "CHECKPOINTS",
+      "type": "directory",
+      "mode": "0o700",
+      "size": 0,
+      "sha256": null
+    },
+    {
+      "path": "CHECKPOINTS/.gitkeep",
+      "type": "file",
+      "mode": "0o600",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "CHECKPOINTS/0001.md",
+      "type": "file",
+      "mode": "0o600",
+      "size": 1763,
+      "sha256": "f6e184022711b8e1cac7797862e5e767eec771d1ec5e513151c5150f8a006e95"
+    },
+    {
+      "path": "DECISOES",
+      "type": "directory",
+      "mode": "0o700",
+      "size": 0,
+      "sha256": null
+    },
+    {
+      "path": "DECISOES/.gitkeep",
+      "type": "file",
+      "mode": "0o600",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "DECISOES/0001.md",
+      "type": "file",
+      "mode": "0o600",
+      "size": 556,
+      "sha256": "c6894190bd2b2dc6af7827410daa6bb60ac6724c15d4f7cbeca41469279cbe72"
+    },
+    {
+      "path": "EVIDENCIAS",
+      "type": "directory",
+      "mode": "0o700",
+      "size": 0,
+      "sha256": null
+    },
+    {
+      "path": "EVIDENCIAS/E2E",
+      "type": "directory",
+      "mode": "0o700",
+      "size": 0,
+      "sha256": null
+    },
+    {
+      "path": "EVIDENCIAS/E2E/.gitkeep",
+      "type": "file",
+      "mode": "0o600",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "EVIDENCIAS/PERFORMANCE",
+      "type": "directory",
+      "mode": "0o700",
+      "size": 0,
+      "sha256": null
+    },
+    {
+      "path": "EVIDENCIAS/PERFORMANCE/.gitkeep",
+      "type": "file",
+      "mode": "0o600",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "EVIDENCIAS/RECUPERACAO",
+      "type": "directory",
+      "mode": "0o700",
+      "size": 0,
+      "sha256": null
+    },
+    {
+      "path": "EVIDENCIAS/RECUPERACAO/.gitkeep",
+      "type": "file",
+      "mode": "0o600",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "EVIDENCIAS/SEGURANCA",
+      "type": "directory",
+      "mode": "0o700",
+      "size": 0,
+      "sha256": null
+    },
+    {
+      "path": "EVIDENCIAS/SEGURANCA/.gitkeep",
+      "type": "file",
+      "mode": "0o600",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "EVIDENCIAS/TESTES",
+      "type": "directory",
+      "mode": "0o700",
+      "size": 0,
+      "sha256": null
+    },
+    {
+      "path": "EVIDENCIAS/TESTES/.gitkeep",
+      "type": "file",
+      "mode": "0o600",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "EVIDENCIAS/TESTES/FND-0001.md",
+      "type": "file",
+      "mode": "0o600",
+      "size": 1945,
+      "sha256": "869131997d4f4d9d83d6d762f02af544904e02190d1895af2ea0f4f783509639"
+    },
+    {
+      "path": "EVIDENCIAS/TESTES/INVENTARIO-0001.md",
+      "type": "file",
+      "mode": "0o600",
+      "size": 1499,
+      "sha256": "be2656a71a38e574ceed5d3777771ea44aff3301da5af57aa047d40019079aa2"
+    },
+    {
+      "path": "EVIDENCIAS/TESTES/PREFLIGHT-0001.md",
+      "type": "file",
+      "mode": "0o600",
+      "size": 1514,
+      "sha256": "59223eba9e1371e24af04e36854acea1fd97ea91dc771b9943fef1e84e10153c"
+    },
+    {
+      "path": "EVIDENCIAS/UX-UI",
+      "type": "directory",
+      "mode": "0o700",
+      "size": 0,
+      "sha256": null
+    },
+    {
+      "path": "EVIDENCIAS/UX-UI/.gitkeep",
+      "type": "file",
+      "mode": "0o600",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "MATRIZES",
+      "type": "directory",
+      "mode": "0o700",
+      "size": 0,
+      "sha256": null
+    },
+    {
+      "path": "MATRIZES/.gitkeep",
+      "type": "file",
+      "mode": "0o600",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "MATRIZES/AUD-ACHADOS-0001.md",
+      "type": "file",
+      "mode": "0o600",
+      "size": 1469,
+      "sha256": "6070b1ed272ae73e297d16e83389b179582798b23160b5e0b8016df1b37e5901"
+    },
+    {
+      "path": "MATRIZES/EXIT-0001.md",
+      "type": "file",
+      "mode": "0o600",
+      "size": 3733,
+      "sha256": "14837fcfd063f2e5d5c6a18d4468be4cca92884e0705b2f115631bc6db9c3df9"
+    },
+    {
+      "path": "MATRIZES/GATES-0001.md",
+      "type": "file",
+      "mode": "0o600",
+      "size": 2691,
+      "sha256": "cbcc7fbe509e6dc3e78ec3d086325f6186b080282f5c980444a809ced1477d56"
+    },
+    {
+      "path": "MATRIZES/ROADMAP-0001-0055.md",
+      "type": "file",
+      "mode": "0o600",
+      "size": 2303,
+      "sha256": "bd99f0ecf32fae9d0e4f9c769bd8bbf8c2211e8891dce989cdbc44cc6cc702ec"
+    },
+    {
+      "path": "REGISTROS",
+      "type": "directory",
+      "mode": "0o700",
+      "size": 0,
+      "sha256": null
+    },
+    {
+      "path": "REGISTROS/.gitkeep",
+      "type": "file",
+      "mode": "0o600",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "REGISTROS/0001.md",
+      "type": "file",
+      "mode": "0o600",
+      "size": 2967,
+      "sha256": "1ac2e7209d30ddeefb71a721bef55d65787020e4f10cd0093632e6d71ddcdee0"
+    },
+    {
+      "path": "RELEASES",
+      "type": "directory",
+      "mode": "0o700",
+      "size": 0,
+      "sha256": null
+    },
+    {
+      "path": "RELEASES/.gitkeep",
+      "type": "file",
+      "mode": "0o600",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "RELEASES/0001.md",
+      "type": "file",
+      "mode": "0o600",
+      "size": 168,
+      "sha256": "8645d7774139a95a8ae0eadd7989923bb8804128036520f1e6893ea75f22aa90"
+    },
+    {
+      "path": "RESUMOS",
+      "type": "directory",
+      "mode": "0o700",
+      "size": 0,
+      "sha256": null
+    },
+    {
+      "path": "RESUMOS/.gitkeep",
+      "type": "file",
+      "mode": "0o600",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "RESUMOS/0001.md",
+      "type": "file",
+      "mode": "0o600",
+      "size": 1227,
+      "sha256": "b6d4268a5539cccd2c410e5fd83df337d238bd488fb009c2fb4843de8cf1bbd3"
+    }
+  ],
+  "paths_sanitized_for_publication": true
+}
