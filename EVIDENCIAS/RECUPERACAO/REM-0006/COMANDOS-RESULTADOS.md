@@ -33,4 +33,6 @@ GET /contents/<manifest-v5.6>?ref=IDB-FREEZE-AUTH-v5.6
 
 Resultados: manifesto passou; tag object `323d76e0cf8d8858359830d799f4a276f8a25909` tem target `557d5500a4dbfb3083a93276798cfd43eba19d2b`; `main` remoto concordou com o freeze quando consultado; API Contents retornou blob local idêntico para matriz (`c7500461d9a78f535e338a20085eb2c5e39b0ff6`) e manifesto (`53bdc8d33e0fd7ec9ef0fcb1e000fea014db60d9`). O SHA do HEAD final após o commit de publicação de evidências será anexado depois da última consulta.
 
+Publicação dos registros foi então conferida: commit/branch `main` `5e835963f9027a25b845ab47fa7c77b79fa68939` confirmado pelo `git ls-remote` e API `/commits/main`; API Contents confirmou blobs de REM-0006, matriz e manifesto iguais aos locais. Tag v5.5 permaneceu no objeto/target anterior. O SHA final do commit que fecha este adendo será confirmado novamente após o push.
+
 Nenhum build, teste de aplicação, instalação, alteração de banco ou comando SQL foi executado nesta remediação documental.
