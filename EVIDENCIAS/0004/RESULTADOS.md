@@ -4,7 +4,7 @@ Data: 2026-11-05 (UTC). Ambiente observado diretamente no Termux.
 
 ## Repositórios antes da alteração
 
-Código: `main`, HEAD `f44a21bb9ed6d4d8e947901d5b5b4ba671daad85`, worktree limpo, `origin` oficial SSH. `git ls-remote` do repositório de código não retornou refs; nenhum push foi feito.
+Código: `main`, HEAD `f44a21bb9ed6d4d8e947901d5b5b4ba671daad85`, worktree limpo, `origin` oficial SSH. `git ls-remote` do repositório de código não retornou refs antes da execução. Por erro operacional, o comando `git push origin main` foi executado no diretório de código e publicou `3978c652252e64510c6b5cc026e09ffa3d374681` em `main`. O erro está documentado em `INCIDENTE-PUSH-CODIGO.md`. Não foi feita tentativa de apagar ou reescrever o remoto.
 
 Histórico: `main` e `origin/main` alinhados em `b5485fb7f35342e7e314d575f62984c78c53b191`; worktree limpo antes dos novos arquivos; remote oficial SSH. Tag anotada v5.6 existente e preservada: objeto `323d76e0cf8d8858359830d799f4a276f8a25909`, commit `557d5500a4dbfb3083a93276798cfd43eba19d2b`.
 
@@ -42,3 +42,7 @@ Os testes executam contra SQLite real (arquivo temporário ou `:memory:` para fa
 ## Limites
 
 Somente Node 26.4.0 em Android ARM64 foi executado. Não há homologação nesta campanha em Android com Node 22/24, Linux, Windows ou Docker. A API `node:sqlite` está em estabilidade Release Candidate. `npm ci` reportou nove moderadas; não foram corrigidas nesta campanha para evitar atualização fora do escopo.
+
+## Publicação remota e incidente
+
+O commit histórico `ac7ccbba33c5ecef9a8fe0d09ed3b4579d8a2c1c` foi enviado normalmente ao repositório histórico e `git ls-remote` confirmou `main` nesse SHA. A página direta do GitHub mostrou esse commit e os arquivos da Campanha 0004. A mesma consulta mostrou o commit de código `3978c652252e64510c6b5cc026e09ffa3d374681` publicado em `main` do repositório de código, contrariando a regra. Ver [registro do incidente](INCIDENTE-PUSH-CODIGO.md). Resultado global passa a **FAIL de conformidade**, apesar dos testes técnicos aprovados.
